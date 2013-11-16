@@ -1,6 +1,4 @@
-
 <%@page import="datalayer.module.ManageStatusServices"%>
-
 <%
     int status_Id = Integer.parseInt(request.getParameter("status_Id"));
     String title = request.getParameter("title");
@@ -10,7 +8,6 @@
         msg = request.getParameter("msg");
     }
 %>
-
 <form action="ManageStatusController.jsp" method="post" onsubmit="return ValidateEditStatusForm()">
     <table border="0" cellpadding="0" cellspacing="0" align="center">
         <tr>

@@ -1,4 +1,3 @@
-
 <form action="ManageStatusController.jsp" method="post" onsubmit="return ValidateAddStatusForm()">
     <table border="0" cellpadding="0" cellspacing="0" align="center">
         <tr>
