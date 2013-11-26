@@ -1,0 +1,410 @@
+﻿/*----------------------------------------------------------------------------------
+	HTML, BODY
+----------------------------------------------------------------------------------*/
+
+html, body
+{
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+* html, * html body
+{
+    height: 100%;
+}
+
+body
+{
+    background: #fff url("../images/body.gif") repeat-x;
+}
+
+body.internal
+{
+    background: #fff url("../images/body_internal.gif") repeat-x;
+}
+
+/*----------------------------------------------------------------------------------
+	HEADER
+----------------------------------------------------------------------------------*/
+
+div#header
+{
+    height: 80px;
+    margin: auto;
+    position: relative;
+    width: 960px;
+}
+
+a#logo
+{
+    border: none;
+    display: block;
+    height: 58px;
+    left: 18px;
+    margin: auto;
+    outline: none;
+    position: absolute;
+    text-decoration: none;
+    top: 12px;
+    width: 266px;
+}
+
+/*----------------------------------------------------------------------------------
+	HEADER :: NAVIGATION
+----------------------------------------------------------------------------------*/
+
+ul#nav
+{
+    bottom: 0;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
+
+#nav li
+{
+    float: left;
+}
+
+#nav li#top_nav_1
+{
+    display: none;
+}
+
+#nav li a
+{
+    color: #307ace;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    height: 20px;
+    padding: 55px 18px 5px;
+}
+ 
+#nav li:hover a
+{
+    background: #307ace;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------
+	HEADER :: NAVIGATION :: SUB NAVIGATION
+----------------------------------------------------------------------------------*/
+
+#nav li ul
+{
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    text-transform: none;
+    top: -999em;
+    width: 225px;
+    z-index: 100;
+}
+ 
+#nav li:hover ul
+{
+    top: 80px;
+}
+ 
+#nav li:hover ul li
+{
+    text-indent: 10px;
+    width: 100%;
+    z-index: 100;
+}
+ 
+#nav li ul li a
+{
+    background: #0f427b !important;
+    border-bottom: 1px solid #dfdfdf;
+    color: #fff !important;
+    display: block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: auto;
+    padding: 6px 18px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+}
+ 
+#nav li ul a:hover
+{
+    background: #307ace !important;
+}
+ 
+#nav li ul li ul
+{
+    display: none;
+}
+
+/*----------------------------------------------------------------------------------
+	FEATURE
+----------------------------------------------------------------------------------*/
+
+div#feature
+{
+    height: 290px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+/*----------------------------------------------------------------------------------
+	FEATURE :: INTERNAL
+----------------------------------------------------------------------------------*/
+
+body.internal div#feature
+{
+    height: auto;
+}
+
+/*----------------------------------------------------------------------------------
+	FEATURE :: SUBHEAD
+----------------------------------------------------------------------------------*/
+
+div#subhead
+{
+    height: 40px;
+    margin: auto;
+    position: relative;
+    width: 960px;
+}
+
+/*----------------------------------------------------------------------------------
+	FEATURE :: SUBHEAD :: SUBNAV
+----------------------------------------------------------------------------------*/
+
+#subhead ul#subnav
+{
+    bottom: 0;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#subnav li
+{
+    float: left;
+}
+
+#subnav li#subnav_technology_services_li
+{
+    float: right;
+}
+
+#subnav li a
+{
+    color: #fff;
+    display: block;
+    font-family: "Segoe UI" , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 26px;
+    padding: 14px 20px 0;
+}
+
+#subnav li a#subnav_technology_services
+{
+    background: url("../images/cts.png") no-repeat;
+    color: #ffde00;
+    font-weight: bold;
+    padding: 14px 40px 0;
+}
+
+#subnav li:hover a, #subnav li a.active
+{
+    background: #307ace;
+    color: #fff;
+    text-decoration: none;
+}
+
+#subnav li#subnav_technology_services_li a
+{
+    background: #4894e9 url("../images/cts.png") no-repeat;
+    padding: 6px 20px 8px;
+}
+
+
+/*----------------------------------------------------------------------------------
+	FEATURE :: SUBHEAD :: BREADCRUMBS
+----------------------------------------------------------------------------------*/
+
+span.breadcrumbs {
+	color: #eee;
+	display: block;
+	font-size: 11px;
+	height: 12px;
+	padding: 12px 15px 10px 15px;
+	overflow: hidden;
+}
+
+span.breadcrumbs a {
+	color: #eee;
+	font-size: 11px;
+}
+
+/*----------------------------------------------------------------------------------
+	MAIN
+----------------------------------------------------------------------------------*/
+
+div#main
+{
+    background: #fff url("../images/main.gif") repeat-x;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    border-top: 10px solid #fff;
+    margin: 10px auto 20px;
+    padding: 15px 5px 0;
+    position: relative;
+    width: 940px;
+}
+
+
+/*----------------------------------------------------------------------------------
+	MAIN :: INTERNAL
+----------------------------------------------------------------------------------*/
+
+body.internal div#main {
+	background: none;
+	border: none;
+	margin-top: 0;
+	padding: 0;
+	width: 960px;
+}
+
+body.internal div#left
+{
+    background: #fff url("../images/main.gif") repeat-x;
+    border-left: 10px solid #fff;
+    border-right: 10px solid #fff;
+    border-top: 10px solid #fff;
+    float: left;
+    min-height: 410px;
+    padding: 15px 15px 0;
+    width: 910px;
+}
+
+body.internal div#right
+{
+    background: #fff;
+    margin-top: 135px;
+    padding: 10px;
+    float: right;
+    padding-top: 135px;
+    padding-top: 10px;
+    width: 220px;
+}
+/*----------------------------------------------------------------------------------
+	FOOTER
+----------------------------------------------------------------------------------*/
+
+div#footer_container
+{
+    background: #0f427b url("../images/footer_container.gif") repeat-x;
+    height: 140px;
+    position: relative;
+    width: 100%;
+}
+
+div#footer
+{
+    margin: auto;
+    position: relative;
+    width: 960px;
+}
+
+/*----------------------------------------------------------------------------------
+	FOOTER :: SUP FOOTER
+----------------------------------------------------------------------------------*/
+
+div#sup_footer
+{
+    height: 40px;
+    position: relative;
+}
+
+div#social
+{
+    color: #bababa;
+    float: right;
+    font-family: "Myriad Pro" , Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#social img
+{
+    margin: 6px 4px 0;
+    opacity: 1;
+    vertical-align: bottom;
+}
+
+#social img:hover
+{
+    opacity: 0.75;
+}
+
+/*----------------------------------------------------------------------------------
+	FOOTER :: SUB FOOTER
+----------------------------------------------------------------------------------*/
+
+div#sub_footer
+{
+    position: relative;
+    height: 100px;
+}
+
+#sub_footer a, #sub_footer a span
+{
+    color: #eee;
+    font-weight: normal;
+}
+
+div#copyright
+{
+    color: #eee;
+    float: left;
+    margin-top: 9px;
+}
+
+ul#sub_footer_nav
+{
+    float: right;
+    margin-top: 9px;
+}
+
+#sub_footer_nav li
+{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+/********/
+label
+{
+    display: block;
+    font: normal normal bold 13px Arial;
+    margin-top: 10px;
+    padding: 4px 0px;
+}
+fieldset
+{
+    border: solid 1px darkblue;
+    padding: 10px;
+}
+.lblMsg
+{
+    color: red;
+}
