@@ -1,6 +1,13 @@
-
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package beans.module;
 
+/**
+ *
+ * @author student
+ */
 public class AddEditTaskSheetBean {
 
     private String txtTask, txtActualEndDate, taDescription, txtStartDate, txtEndDate,txtAssignDate;
